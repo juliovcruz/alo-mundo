@@ -20,5 +20,5 @@ func main() {
 		fmt.Println(student)
 	}
 
-	fmt.Println(fmt.Sprintln(`Soma dos últimos números da matricula dos estudantes:`, sum))
+	fmt.Println("Soma dos últimos números da matricula dos estudantes:", sum)
 }
