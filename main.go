@@ -13,15 +13,12 @@ func main() {
 
 	var sum int
 
-	for _, value := range students {
-		sum += value%10
-	}
-
 	fmt.Println("Alô Mundo")
 
-	for student, _ := range students {
+	for student, value := range students {
+		sum += value%10
 		fmt.Println(student)
 	}
 
-	fmt.Println(fmt.Sprintln(`Sum of each last student's registration number:`, sum))
+	fmt.Println(fmt.Sprintln(`Soma dos últimos números da matricula dos estudantes:`, sum))
 }
