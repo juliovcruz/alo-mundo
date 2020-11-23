@@ -17,6 +17,11 @@ func main() {
 		sum += value%10
 	}
 
-	fmt.Println("Hello World")
+	fmt.Println("Alô Mundo")
+
+	for student, _ := range students {
+		fmt.Println(student)
+	}
+
 	fmt.Println(fmt.Sprintln(`Sum of each last student's registration number:`, sum))
 }
